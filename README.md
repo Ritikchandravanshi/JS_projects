@@ -1,4 +1,4 @@
-# 💱 Currency Converter App  
+# 💱 MINI Js projects 
 
 [![GitHub stars](https://img.shields.io/github/stars/ritikchandravanshi/currency-converter-app?style=for-the-badge)](https://github.com/ritikchandravanshi/currency-converter-app/stargazers)  
 [![GitHub forks](https://img.shields.io/github/forks/ritikchandravanshi/currency-converter-app?style=for-the-badge)](https://github.com/ritikchandravanshi/currency-converter-app/network/members)  
