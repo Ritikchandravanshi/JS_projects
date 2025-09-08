@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Downloaded - Simple</title>
+  <style>
+    :root{ --bg:#757a84; --card:#332626; --accent:#b48d8d; --muted:#b48d8d }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,Segoe UI,Roboto,Arial;
+      background:var(--bg); color:#0f1724; display:flex; align-items:center; justify-content:center; min-height:100vh; padding:20px;
+    }
+    .container{ width:100%; max-width:420px }
+    h1{
+         margin:0 0 16px 0;
+          font-size:20px;
+           text-align:center ; 
+           display: block;
+    }
+
+    .card{
+      background:var(--card); border-radius:10px; padding:18px; box-shadow:0 6px 18px rgba(15,23,36,0.08);
+    }
+
+    .bar-wrap{ background:#333334; border-radius:999px; padding:6px; }
+    .bar{ width:0%; height:18px; background:linear-gradient(90deg,var(--accent), #7c3aed); border-radius:999px; display:flex; align-items:center; justify-content:center; color:white; font-weight:600; font-size:13px; transition:width 300ms linear }
+
+    .meta{ margin-top:10px; display:flex; justify-content:space-between; color:var(--muted); font-size:13px }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Downloaded</h1>
+    <div class="card">
+      <!-- aap JS se #progress aur #percent ko change kar sakte ho -->
+      <div class="bar-wrap" aria-hidden="true">
+        <div id="progress" class="bar">0%</div>
+      </div>
+      <div class="meta">
+        <div id="leftText">0 of 4.8 MB</div>
+        <div id="percent">0%</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

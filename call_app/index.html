@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Card Stack</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Left controls -->
+    <div class="side-controls">
+        <!-- Plus button link to form -->
+        <a href="#form-popup" class="plus-btn">+</a>
+        <button>↑</button>
+        <button>↓</button>
+    </div>
+
+    <!-- Profile card -->
+    <div class="card">
+        <div class="profile-img"></div>
+        <h3>Fatima Uma</h3>
+        <div class="details">
+            <span>Home town<br>Bookings</span>
+            <span>Singapore<br>3 times</span>
+        </div>
+        <div class="buttons">
+            <button class="call">📞 Call</button>
+            <button class="message">Message</button>
+        </div>
+    </div>
+
+    <!-- Right color selectors -->
+    <div class="color-dots">
+        <span class="black"></span>
+        <span class="purple"></span>
+        <span class="orange"></span>
+        <span class="teal"></span>
+    </div>
+</div>
+
+<!-- Form Popup (hidden by default) -->
+<div id="form-popup" class="overlay">
+    <div class="form-container">
+        <h2>Add New Profile</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Location" required>
+            <input type="number" placeholder="Bookings" required>
+            <div class="form-buttons">
+                <button type="submit">Save</button>
+                <a href="#" class="close-btn">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+  
